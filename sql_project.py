@@ -12,7 +12,7 @@ st.markdown("This system translates Persian or English into secure T-SQL queries
 
 # --- API KEY & DATABASE CONNECTION ---
 # Replace with your actual Groq API Key
-os.environ["GROQ_API_KEY"] = "YOUR_GROQ_API_KEY_HERE"
+os.environ["GROQ_API_KEY"] = "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"
 
 @st.cache_resource
 def init_connection():
